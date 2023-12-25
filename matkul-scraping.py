@@ -5,6 +5,7 @@ from selenium.webdriver.firefox.options import Options
 
 options = Options()
 options.add_argument("-profile")
+# change your own profile
 options.add_argument("C:/Users/Administrator/AppData/Roaming/Mozilla/Firefox/Profiles/4trbl1o3.automation")
 driver = webdriver.Firefox(options)
 driver.maximize_window()
